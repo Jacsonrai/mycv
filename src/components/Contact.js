@@ -27,7 +27,7 @@ function Contact() {
       phone:input.phone,
       subject:input.subject
     }
-    axios.post('http://localhost:3001/create',newNote)
+    axios.post('https://mycvadmin.herokuapp.com/create',newNote)
    
     
   }
