@@ -1,0 +1,149 @@
+.html,body{
+  font-size:62.5% ;
+  
+}
+
+.header-color{
+  background: #373B44;  /* fallback for old browsers */
+
+  
+
+  
+
+}  
+
+
+.landing__image{
+width: 100%;
+height:62rem;
+position: relative;
+opacity: 0.5;
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+}
+.landing__container{
+  text-align: center;
+  color: rgb(38, 20, 78);
+  position: relative;
+ 
+  
+}
+.nav-wrapper{
+  margin-top: -20px;
+}
+
+
+
+.icon__container{
+  position: absolute;
+  top: 22.5rem;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  border: .2rem solid rgb(185, 184, 184);
+  position:absolute;
+
+}
+.icon__container>a{
+  margin: 2 1rem;
+  transition: transform 300ms;
+  display: inline-block;
+ }
+
+.icon__container>a:hover{
+  transform: translateY(-3px);
+  padding: 0.5rem;
+}
+
+.resume__container{
+    background: #FF512F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 77rem;
+
+}
+.admin__image1{
+  height: auto;
+  width: 22.1rem;
+  position: absolute;
+  top: .01rem;
+  left: 1.69rem;
+  border: .3rem solid rgb(185, 184, 184);
+  
+  
+}
+.centered__text{
+
+  position: absolute;
+  top: 17rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+}
+
+.subtitle{
+  padding: 1rem;
+}
+.admin__image{
+  position: absolute;
+  top: 28rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  height: auto;
+  width: 40%;
+  border-radius: 50%;
+}
+.social__follow{
+  position: absolute;
+  top: 44rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: rgb(38, 20, 78);
+ 
+  padding:1rem 2rem;
+}
+.social__follow>a{
+  margin: 1 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+.social__follow>a:hover{
+  transform: translateY(-2px);
+  padding: 0.5rem;
+}
+.youtube__social{
+  color: #eb3223;
+  padding: 0.5rem;
+}
+.instagram__social{
+  color: #F56040;
+  padding: 0.5rem;
+}
+.facebook__social{
+  color: #4968ad;
+  padding: 0.5rem;
+}
+.github__social{
+  color:rgb(15, 15, 15);
+  padding: 0.5rem;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ padding-top: 20px;
+}
+
+.card-contain{
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  text-align: center;
+}
+
